@@ -1,4 +1,5 @@
- --CREATE DATABASE tutor_db;
+```SQL
+--CREATE DATABASE tutor_db;
 -- GO
 -- USE tutor_db;
 ---------------------------------------------------------------
@@ -396,4 +397,4 @@ GROUP BY Place.audience, Faculty.faculty_name;
                               ON Teacher (First_name, Last_name);
 						
 	CREATE UNIQUE INDEX idx_faculty ON Faculty (faculty_name);
-
+```
